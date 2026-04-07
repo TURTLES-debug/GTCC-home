@@ -1,47 +1,57 @@
-<!DOCTYPE html>
-<html>
+<html lang="en" class="dark">
 <head>
-    <title>Gorilla Tag Comp Caves</title>
-    <title>GTIC - CCS</title>
-    <link rel="icon" type="image/x-icon" href="gtic.png">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTIC - Gorilla Tag Intermediate COMP</title>
+    
+    <meta name="description" content="The premier competitive league for Cave Gorilla Tag players. Join tournaments, compete with teams, and swing your way to victory!">
+    <meta property="og:title" content="GTCC - Gorilla Tag COMP Caves ">
+    <meta property="og:description" content="The premier competitive league for Cave Gorilla Tag players.">
+    <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/RhtVE5JDElWyTpkGFarqOrxwtdm2/social-images/social-1758758739012-GTIC_Logo_Word.png">
+    <link rel="icon""C:\Users\ryanr\Downloads\output-onlinepngtools_8-removebg-preview (1).png"">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #000; }
-        
-        /* Your custom navigation bar */
-        .navbar {
-            height: 50px;
-            background: #1a1a1a;
+        body {
+            background-color: #0a0a0a;
+            color: #ffffff;
+            font-family: sans-serif;
+        }
+        /* Custom Badge Style from your snippet */
+        #lovable-badge {
+            position: fixed;
+            bottom: 12px;
+            right: 12px;
+            background: #1b1b1b;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
             display: flex;
             align-items: center;
-            padding: 0 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            z-index: 100;
         }
-
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            margin-right: 20px;
-            font-family: sans-serif;
-            font-weight: bold;
-        }
-
-        /* The iframe sits below the navbar */
-        iframe {
-            width: 100%;
-            height: calc(100vh - 50px); /* Subtracts the navbar height */
-            border: none;
-        }
-        iframe { width: 100%; height: 100%; border: none; position: absolute; top: 0; left: 0; }
     </style>
 </head>
 <body>
-
-    <div class="navbar">
-        <a href="index.html">HOME</a>
-        <a href="ccs.html">CCS</a> 
+    <div id="root">
+        <div class="min-h-screen flex flex-col items-center justify-center p-6 text-center">
+            <img src=""C:\Users\ryanr\Downloads\output-onlinepngtools_8-removebg-preview (1).png"" 
+                 alt="GTCC Logo" class="w-32 h-32 mb-4">
+            <h1 class="text-4xl font-bold mb-2">GTIC</h1>
+            <p class="text-xl text-gray-400">Gorilla Tag Intermediate COMP</p>
+            <p class="mt-4 max-w-md">The premier competitive league for intermediate players. Join tournaments and compete with the best.</p>
+            
+            <div class="mt-8 flex gap-4">
+                <a href="#" class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full font-semibold transition">Join Discord</a>
+                <a href="#" class="border border-white/20 hover:bg-white/10 px-6 py-2 rounded-full font-semibold transition">Leaderboards</a>
+            </div>
+        </div>
     </div>
 
-    <iframe src="https://gtic.lovable.app/color-selector"></iframe>
-
+    <div id="lovable-badge">
+        <span>Built with GTCC League</span>
+    </div>
 </body>
 </html>
